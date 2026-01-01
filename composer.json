@@ -1,0 +1,17 @@
+{
+  "name": "swapnil/url-shortener",
+  "description": "A lightweight, framework-agnostic PHP URL shortener",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Swapnil\\UrlShortener\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
